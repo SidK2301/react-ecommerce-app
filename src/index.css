@@ -1,0 +1,12 @@
+/* Global Styles */
+body {
+  margin: 0; /* Remove default margin */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif; /* Set a clean font family */
+  -webkit-font-smoothing: antialiased; /* Smooth fonts for webkit browsers */
+  -moz-osx-font-smoothing: grayscale; /* Smooth fonts for Firefox */
+}
+
+/* Code styling */
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace; /* Set monospace font for code snippets */
+}

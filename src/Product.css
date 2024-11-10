@@ -1,0 +1,33 @@
+/* Product Item Styling */
+.product-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-item:hover {
+    transform: scale(1.05);  /* Slight zoom effect */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Subtle shadow */
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px; /* Add some rounded corners to the image */
+  }
+  
+  .product-item h3 {
+    color: #333;
+    font-size: 1.2rem;
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    color: teal;
+    font-size: 1rem;
+  }
+  

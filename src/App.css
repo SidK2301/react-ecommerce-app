@@ -1,0 +1,36 @@
+/* App.css */
+
+/* Basic body styling */
+body {
+  background-color: #f9f6ff; /* Light purple background color */
+  font-family: Arial, sans-serif; /* Set font to Arial */
+  color: #333; /* Dark grey text color */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for all h1 headings */
+h1 {
+  color: #6a5acd; /* Light purple color for heading */
+  font-size: 2em; /* Increase font size */
+  text-align: center; /* Center-align the heading */
+  margin: 20px 0; /* Margin around the heading */
+}
+
+/* Styling for buttons */
+button {
+  background-color: #ffb6c1; /* Light pink background for the button */
+  border: none; /* Remove default border */
+  color: white; /* White text color */
+  padding: 10px 20px; /* Padding around the button text */
+  font-size: 16px; /* Set font size of button text */
+  margin: 10px 5px; /* Add margin between buttons */
+  cursor: pointer; /* Pointer cursor on hover */
+  border-radius: 8px; /* Rounded corners for the button */
+  transition: background-color 0.3s ease; /* Smooth transition for background color change */
+}
+
+/* Button hover effect */
+button:hover {
+  background-color: #ff69b4; /* Change background color to a darker pink on hover */
+}

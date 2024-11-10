@@ -1,0 +1,32 @@
+.product-list {
+  padding: 20px;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.product-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+}
+
+.product-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.pagination button {
+  padding: 8px 16px;
+  cursor: pointer;
+}
